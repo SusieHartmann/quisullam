@@ -1,0 +1,43 @@
+{
+  "name": "quisullam",
+  "version": "1.0.0",
+  "description": "Generate a public key from a signature",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/SusieHartmann/quisullam.git"
+  },
+  "source": "src/converter.ts",
+  "main": "lib/converter.js",
+  "module": "./lib/converter.module.js",
+  "types": "lib/converter.d.ts",
+  "keywords": [
+    "ethermint",
+    "evmos",
+    "bech32",
+    "eth",
+    "eligendi",
+    "pubkey",
+    "explicabo",
+    "ut"
+  ],
+  "files": [
+    "lib/**/*"
+  ],
+  "author": "AlanBogisich",
+  "devDependencies": {
+    "@babel/core": "^7.15.0",
+    "@babel/preset-env": "^7.15.0",
+    "@babel/preset-typescript": "^7.15.0",
+    "@types/jest": "^27.0.1",
+    "@types/node": "^16.7.4",
+    "babel-jest": "^27.1.0",
+    "jest": "^27.1.0",
+    "microbundle": "^0.13.3",
+    "typescript": "^4.4.2"
+  },
+  "dependencies": {
+    "ethereumjs-util": "^7.1.3"
+  },
+  "homepage": "https://github.com/SusieHartmann/quisullam.git"
+}
